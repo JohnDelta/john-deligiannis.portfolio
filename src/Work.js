@@ -54,7 +54,7 @@ class Work extends React.Component {
 							<a 
 								className="button" 
 								href="https://github.com/JohnDelta" 
-								rel="nooperner noreferrer" 
+								rel="noopener noreferrer" 
 								target="_blank" >
 									<i className="fa fa-code" />
 									<p>Code</p>
@@ -62,7 +62,7 @@ class Work extends React.Component {
 							<a 
 								className="button" 
 								href="https://github.com/JohnDelta" 
-								rel="nooperner noreferrer"  
+								rel="noopener noreferrer"  
 								target="_blank" >
 									<i className="fa fa-play-circle" />
 									<p>Demo</p>
