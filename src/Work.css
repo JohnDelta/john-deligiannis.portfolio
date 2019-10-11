@@ -46,9 +46,11 @@
 	font-size: 19px;
 	margin: auto;
 	text-align: center;
+	pointer-events: none;
 }
 .project .collapse-btn .arrow {
 	position: absolute;
+	pointer-events: none;
 }
 .collapse-btn-active .arrow {
 	transform: rotate(180deg);
