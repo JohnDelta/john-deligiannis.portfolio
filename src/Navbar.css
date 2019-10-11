@@ -16,6 +16,7 @@
 	justify-content: start;
 	align-items: center;
 	min-width: 360px;
+	z-index: 20;
 }
 .nav-logo {
 	grid-row: 1/4;

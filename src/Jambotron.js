@@ -4,11 +4,11 @@ import './Jambotron.css';
 function Jambotron() {
 	return (
 		<div className="Jambotron">
-			<img className="bg" src="./test3.png" />
+			<img className="bg" src={require('./images/test3.png')} />
 			<div className="showcase">
 				<div className="background-img">
-					<img src="./responsive-template-filled1.png" />
-					<img src="./responsive-template-filled2.png" />
+					<img src={require('./images/responsive-template-filled1.png')} />
+					<img src={require('./images/responsive-template-filled1.png')} />
 				</div>
 				<h1 className="title">Hi I'm John, a web developer</h1>
 				<h2 className="subtitle">I'am currently studying computer 
