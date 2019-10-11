@@ -5,15 +5,23 @@ function Navbar() {
 	return (
 		<div className="Navbar">
 			<div className="nav-header">
-				<img className="nav-logo" src="./logo.png" />
+				<img className="nav-logo" src={require('./images/logo.png')} />
 				<p className="name">John Deligiannis</p>
 				<p className="title">Web Developer</p>
 				<div className="nav-contact">
-				  <a href="https://github.com/JohnDelta" target="_blank" title="Visit my github profile!">
-					<i className="fa fa-github" /> 
+				  <a 
+					href="https://github.com/JohnDelta"
+					target="_blank" 
+					title="Visit my github profile!"
+					rel="noopener noreferrer" >
+						<i className="fa fa-github" /> 
 				  </a>
-				  <a href="#" target="_blank" title="not ready yet!">
-					<i className="fa fa-linkedin-square" />
+				  <a 
+					href="https://github.com/JohnDelta"
+					target="_blank" 
+					title="Visit my github profile!"
+					rel="noopener noreferrer" >
+						<i className="fa fa-linkedin-square" /> 
 				  </a>
 				</div>
 			</div>
