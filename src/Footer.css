@@ -1,0 +1,16 @@
+/*	FOOTER - START	*/
+.Footer {
+	pointer-events: none;
+	height: 60px;
+	width: 100vw;
+	background-color: #293462;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Footer p {
+	font-size: 14px;
+	color: #fff1c1;
+	text-align: center;
+}
+/*	FOOTER - END	*/

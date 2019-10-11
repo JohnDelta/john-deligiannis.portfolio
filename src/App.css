@@ -1,22 +1,81 @@
+/*
+	# Font families
+		- font-family: 'Righteous', cursive; // strong - title - nav
+		- font-family: 'Montserrat', sans-serif; // light - text
+
+	# Color palette
+		- Dark blue #293462
+		- Mid blue #216583
+		- Light red #f76262
+		- Light beize #f76262
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	align-items: center;
+	background-color: #216583;
 }
 
-.App-logo {
-  height: 40vmin;
+main {
+	overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*	SCROLLBAR - START	*/
+::-webkit-scrollbar {
+	width: 1.5vw;
+	max-width: 20px;
+	min-width: 10px;
 }
+::-webkit-scrollbar-track {
+	background-color: #293462;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #000000;
+}
+/*	SCROLLBAR - END	*/
 
-.App-link {
-  color: #09d3ac;
+
+/* SECTION - START	*/
+.section-container {
+	padding-top: 14vh;
+	display: flex;
+	flex-direction: column;
 }
+.section-container .section-title {
+	width: 90vw;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-bottom: 14vh;
+	align-self: center;
+}
+.section-container .section-title hr {
+	width: 100%;
+	height: 4.5px;
+	background-color: #293462;
+	border: none;
+}
+.section-container .section-title p {
+	font-family: sans-serif;
+	font-weight: 900;
+	font-size: 42px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0px 20px;
+	color: #293462;
+}
+/* SECTION - END	*/
