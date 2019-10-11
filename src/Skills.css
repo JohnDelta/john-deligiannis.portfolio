@@ -42,13 +42,13 @@
 .category fieldset {
 	width: 170px;
 	align-self: center;
-	border: 2px solid #293462;
+	border: none;
 	border-radius: 20px;
 	margin-bottom: 15px;
-	background-color: #293462;
+	background-color: #fff1c1;
 }
 .category legend {
-	background-color: #216583;
+	background-color: #293462;
 	border-radius: 15px;
 	font-size: 18px;
 	padding: 5px 15px;
@@ -64,7 +64,7 @@
 }
 .category li {
 	font-size: 15px;
-	color: #fff1c1;
+	color: #000000;
 	width: 140px;
 	margin-bottom: 5px;
 }
