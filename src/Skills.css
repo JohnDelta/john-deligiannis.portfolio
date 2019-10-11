@@ -1,0 +1,87 @@
+/*	SKILLS SECTION - START	*/
+.skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+.categories {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+.categories hr {
+	width: 2px;
+	height: 100%;
+	border: none;
+	background-color: #293462;
+}
+.category {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	margin: 0px 30px;
+	text-align: center;
+}
+.category i {
+	color: #fff1c1;
+	font-size: 5em;
+}
+.category .title {
+	font-family: 'Righteous', cursive;
+	color: #fff1c1;
+	font-size: 32px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.category fieldset {
+	width: 170px;
+	align-self: center;
+	border: 2px solid #293462;
+	border-radius: 20px;
+	margin-bottom: 15px;
+	background-color: #293462;
+}
+.category legend {
+	background-color: #216583;
+	border-radius: 15px;
+	font-size: 18px;
+	padding: 5px 15px;
+	color: #fff1c1;
+}
+.category ul {
+	margin: 7px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.category li {
+	font-size: 15px;
+	color: #fff1c1;
+	width: 140px;
+	margin-bottom: 5px;
+}
+.category p {
+	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.categories {
+		flex-direction: column;
+	}
+	.categories hr {
+		display: none;
+		position: absolute;
+	}
+	.category {
+		width: 100%;
+		margin: 0px;
+		justify-content: center;
+	}
+}
+/*	SKILLS SECTION - END	*/

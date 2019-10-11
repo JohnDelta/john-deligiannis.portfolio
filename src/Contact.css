@@ -1,0 +1,27 @@
+/*	CONTACT SECTION -START	*/
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact p {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #fff1c1;
+}
+.info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 8vh;
+}
+.info a {
+	margin: 0px 40px;
+}
+.info a i {
+	color: #fff1c1;
+	font-size: 4em;
+}
+/*	CONTACT SECTION -END	*/
