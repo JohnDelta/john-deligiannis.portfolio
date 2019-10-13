@@ -169,7 +169,7 @@ class Navbar extends React.Component {
 		return (
 			<div className="Navbar">
 				<div className="nav-header">
-					<img className="nav-logo" src={require('./images/logo.png')} alt="John Deligiannis's Logo" />
+					<img className="nav-logo" src={require('./images/logo.svg')} alt="John Deligiannis's Logo" />
 					<p className="name">John Deligiannis</p>
 					<p className="title">Web Developer</p>
 					<div className="nav-contact">
