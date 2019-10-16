@@ -48,7 +48,7 @@ class Work extends React.Component {
 					<div className="collapse">
 						<a 
 							className="button" 
-							href="https://github.com/JohnDelta" 
+							href={project.sourceLink} 
 							rel="noopener noreferrer" 
 							target="_blank" >
 								<i className="fa fa-code" />
@@ -56,7 +56,7 @@ class Work extends React.Component {
 						</a>
 						<a 
 							className="button" 
-							href="https://github.com/JohnDelta" 
+							href={project.viewLink} 
 							rel="noopener noreferrer"  
 							target="_blank" >
 								<i className="fa fa-play-circle" />
