@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 /*	HEADER NAVBAR - START	*/
 .Navbar {
 	background-color: transparent;
@@ -5,41 +7,70 @@
 	position: fixed;
 	width: 100vw;
 	min-height: 14vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	overflow: hidden;
 }
 .nav-header {
+	display: -ms-grid;
 	display: grid;
-	justify-content: start;
-	align-items: center;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	min-width: 360px;
 	z-index: 20;
 }
 .nav-logo {
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 3;
 	grid-row: 1/4;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 1;
 	grid-column: 1/2;
 	height: 100%;
 	margin-right: 15px;
 }
 .nav-header .title {
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2/3;
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2/3;
 	font-size: 16px;
 	color: #fff1c1;
 }
 .nav-header .name {
 	color: #fff1c1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
 	grid-row: 1/2;
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2/3;
 	font-family: 'Righteous', cursive;
 	font-size: 22px;
 	letter-spacing: 3px;
 }
 .nav-contact {
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
 	grid-row: 3/4;
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2/3;
 }
 .nav-contact a {
@@ -52,31 +83,53 @@
 	width: 25px;
 	height: 30px;
 	display: none;
-	flex-direction: column;
-	justify-content: space-around;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	cursor: pointer;
 }
 .nav-button div {
 	width: 25px;
 	height: 3px;
 	background-color: #fff1c1;
+	-webkit-transition: -webkit-transform 0.5s ease-out;
+	transition: -webkit-transform 0.5s ease-out;
+	-o-transition: transform 0.5s ease-out;
 	transition: transform 0.5s ease-out;
+	transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 .nav-links {
 	width: 30%;
 	min-width: 320px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
 .nav-links li {
 	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .nav-link {
 	font-family: 'Righteous', cursive;
@@ -85,6 +138,8 @@
 	cursor: pointer;
 	text-decoration: none;
 	color: #fff1c1;
+	-webkit-transition: 0.3s linear;
+	-o-transition: 0.3s linear;
 	transition: 0.3s linear;
 	padding:0px 1.5vw 0px 1.5vw;
 }
@@ -115,20 +170,35 @@
 		top: 0vh;
 		height: 100vh;
 		left: 100%;
-		flex-direction: column;
-		justify-content: center;
-		transform: translateX(0%);
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-transform: translateX(0%);
+		    -ms-transform: translateX(0%);
+		        transform: translateX(0%);
+		-webkit-transition: -webkit-transform 0.5s ease-out;
+		transition: -webkit-transform 0.5s ease-out;
+		-o-transition: transform 0.5s ease-out;
 		transition: transform 0.5s ease-out;
+		transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 	}
 	.nav-link {
 		margin: 10vh 0px;
 	}
 	.nav-button {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 		z-index: 20;
 	}
 	.nav-links-active {
-		transform: translateX(-100%);
+		-webkit-transform: translateX(-100%);
+		    -ms-transform: translateX(-100%);
+		        transform: translateX(-100%);
 	}
 }
 
@@ -147,21 +217,40 @@
 }
 
 .nav-button-line1-active {
-	transform: rotate(45deg) translateY(8px) translateX(6px);
+	-webkit-transform: rotate(45deg) translateY(8px) translateX(6px);
+	    -ms-transform: rotate(45deg) translateY(8px) translateX(6px);
+	        transform: rotate(45deg) translateY(8px) translateX(6px);
 }
 .nav-button-line2-active {
-	transform: scale(0);
+	-webkit-transform: scale(0);
+	    -ms-transform: scale(0);
+	        transform: scale(0);
 }
 .nav-button-line3-active {
-	transform: rotate(-45deg) translateY(-8px) translateX(6px);
+	-webkit-transform: rotate(-45deg) translateY(-8px) translateX(6px);
+	    -ms-transform: rotate(-45deg) translateY(-8px) translateX(6px);
+	        transform: rotate(-45deg) translateY(-8px) translateX(6px);
+}
+
+@-webkit-keyframes nav-link-active-anim {
+	from {
+		-webkit-transform: translateY(100vh);
+		        transform: translateY(100vh);
+	}
+	to {
+		-webkit-transform: translateY(0vh);
+		        transform: translateY(0vh);
+	}
 }
 
 @keyframes nav-link-active-anim {
 	from {
-		transform: translateY(100vh);
+		-webkit-transform: translateY(100vh);
+		        transform: translateY(100vh);
 	}
 	to {
-		transform: translateY(0vh);
+		-webkit-transform: translateY(0vh);
+		        transform: translateY(0vh);
 	}
 }
 
@@ -169,6 +258,8 @@
 	top: 10vh;
 	position: fixed;
 	opacity: 0;
+	-webkit-transition: 0.2s ease-out;
+	-o-transition: 0.2s ease-out;
 	transition: 0.2s ease-out;
 	font-size: 1.8em;
 	color: #fff1c1;
