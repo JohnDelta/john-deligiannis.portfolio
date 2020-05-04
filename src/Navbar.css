@@ -40,7 +40,8 @@
 	-ms-grid-column: 1;
 	-ms-grid-column-span: 1;
 	grid-column: 1/2;
-	height: 100%;
+	width: 65px;
+	height: 65px;
 	margin-right: 15px;
 }
 .nav-header .title {
@@ -149,6 +150,8 @@
 		min-width: 200px;
 	}
 	.nav-logo {
+		width: 55px;
+		height: 55px;
 		max-width: 55px;
 		max-height: 55px;
 		margin-right: 10px;
@@ -204,6 +207,8 @@
 
 @media screen and (max-width: 568px) {
 	.nav-logo {
+		width: 50px;
+		height: 50px;
 		max-width: 50px;
 		max-height: 50px;
 		margin-right: 10px;

@@ -76,6 +76,7 @@ main {
 
 /* SECTION - START	*/
 .section-container {
+	z-index: 10;
 	padding-top: 14vh;
 	display: -webkit-box;
 	display: -ms-flexbox;

@@ -76,11 +76,15 @@
 	background-color: #fff1c1;
 }
 .category legend {
+	width: 100%;
+	padding: 5px;
+	margin: auto;
 	background-color: #293462;
 	border-radius: 15px;
 	font-size: 18px;
 	padding: 5px 15px;
 	color: #fff1c1;
+	text-align: center;
 }
 .category ul {
 	margin: 7px;
