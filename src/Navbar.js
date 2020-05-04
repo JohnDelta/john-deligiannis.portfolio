@@ -11,7 +11,7 @@ class Navbar extends React.Component {
 		/*
 			Call this function to update the position of the nav slider.
 			If argument is given, it moves the slider in the desired position (in pixels).
-			Elsewhere it find the section closer to user's view and move it there.
+			Elsewhere it finds the section closer to user's view and moves there.
 		*/
 		this.updateSliderPos = this.updateSliderPos.bind(this);
 
@@ -171,19 +171,19 @@ class Navbar extends React.Component {
 				<div className="nav-header">
 					<img className="nav-logo" src={require('./images/logo.svg')} alt="John Deligiannis's Logo" />
 					<p className="name">John Deligiannis</p>
-					<p className="title">Web Developer</p>
+					<p className="title">Software Engineer</p>
 					<div className="nav-contact">
 					  <a 
 						href="https://github.com/JohnDelta"
 						target="_blank" 
-						title="Visit my github profile!"
+						title="Visit my Github profile!"
 						rel="noopener noreferrer" >
 							<i className="fa fa-github" /> 
 					  </a>
 					  <a 
-						href="https://github.com/JohnDelta"
+						href="https://www.linkedin.com/in/john-deligiannis-917736196/"
 						target="_blank" 
-						title="Visit my github profile!"
+						title="Visit my LinkedIn profile!"
 						rel="noopener noreferrer" >
 							<i className="fa fa-linkedin-square" /> 
 					  </a>

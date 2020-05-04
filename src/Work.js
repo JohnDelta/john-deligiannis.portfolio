@@ -30,6 +30,17 @@ class Work extends React.Component {
 	render() {
 		let projects = [];
 		this.props.projectsToJson.forEach((project, index) => {
+			let utilized = [];
+			project.utilized.forEach((tech, index)=>{
+				utilized.push(
+					<div className="tag">{tech}</div>
+				)
+			});
+
+			let notAvailable;
+			if(project.viewLink === "") 
+				notAvailable = {"pointerEvents":"none", "opacity":"0.5"};
+
 			projects.push(
 				<div className="project" key={"project"+index}>
 					<img 
@@ -55,7 +66,8 @@ class Work extends React.Component {
 								<p>Code</p>
 						</a>
 						<a 
-							className="button" 
+							className="button"
+							style={notAvailable}
 							href={project.viewLink} 
 							rel="noopener noreferrer"  
 							target="_blank" >
@@ -63,22 +75,9 @@ class Work extends React.Component {
 								<p>Demo</p>
 						</a>
 						<p className="description">{project.description}</p>
-						<p className="title">Technologies Used</p>
 						<div className="technologies">
-							<p className="sub-title">Front-End</p>
-							<ul>
-								<li><i className="fa fa-code" />Javascript</li>
-								<li><i className="fa fa-code" />Javascript</li>
-								<li><i className="fa fa-code" />Javascript</li>
-							</ul>
-						</div>
-						<div className="technologies">
-							<p className="sub-title">Back-End</p>
-							<ul>
-								<li><i className="fa fa-code" />Javascript</li>
-								<li><i className="fa fa-code" />Javascript</li>
-								<li><i className="fa fa-code" />Javascript</li>
-							</ul>
+							<p>Utilized</p>
+							{utilized}
 						</div>
 					</div>
 				</div>

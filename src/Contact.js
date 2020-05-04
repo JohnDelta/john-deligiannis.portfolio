@@ -13,21 +13,21 @@ function Contact() {
 					<a 
 						href="https://github.com/JohnDelta" 
 						target="_blank" 
-						title="Visit my github profile!"
+						title="Visit my Github profile!"
 						rel="noopener noreferrer" >
 							<i className="fa fa-github"></i> 
 					</a>
 					<a 
-						href="https://github.com/JohnDelta" 
+						href="https://www.linkedin.com/in/john-deligiannis-917736196/" 
 						target="_blank" 
-						title="Visit my github profile!"
+						title="Visit my LinkedIn profile!"
 						rel="noopener noreferrer" >
 							<i className="fa fa-linkedin-square"></i> 
 					</a>
 					<a 
 						href="https://github.com/JohnDelta" 
 						target="_blank" 
-						title="Visit my github profile!"
+						title="Send me an E-mail!"
 						rel="noopener noreferrer" >
 							<i className="fa fa-at"></i> 
 					</a>

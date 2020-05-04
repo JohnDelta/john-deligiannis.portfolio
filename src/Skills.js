@@ -24,31 +24,32 @@ function Skills() {
 							<legend>Frameworks</legend>
 							<ul>
 								<li><p>React</p></li>
-								<li><p>Bootstrap</p></li>
 							</ul>
 						</fieldset>
 					</div>
 					<hr />
 					<div className="category">
-						<i className="fa fa-code" />
+						<i className="fa fa-cogs" />
 						<p className="title">Back-End</p>
 						<fieldset>
 							<legend>Languages</legend>
 							<ul>
 								<li>Java</li>
 								<li>PHP</li>
+								<li>MySQL</li>
 							</ul>
 						</fieldset>
 						<fieldset>
-							<legend>Frameworks</legend>
+							<legend>Technologies</legend>
 							<ul>
-								<li>Lavarel</li>
+								<li>RESTful</li>
+								<li>Swing</li>
 							</ul>
 						</fieldset>
 					</div>
 					<hr />
 					<div className="category">
-						<i className="fa fa-code" />
+						<i className="fa fa-asterisk" />
 						<p className="title">Other</p>
 						<fieldset>
 							<legend>Versioning Systems</legend>

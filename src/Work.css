@@ -2,13 +2,12 @@
 .projects {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto auto;
-	grid-row-gap: 20px;
+	row-gap: 20px;
 	align-items: start;
 	align-content: start;
 	justify-items: center;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
 	.projects {
 		grid-template-columns: 100%;
 	}
@@ -62,17 +61,17 @@
 }
 
 .project .collapse {
-	max-height: 1px;
+	max-height: 0px;
 	overflow: hidden;
 	transition: max-height 0.3s ease-out;
 	color: #000000;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	border-bottom: 1px solid #fff1c1;
-	background-color: #fff1c1;
+	background-color: #293462;
 }
 .collapse .button {
-	background-color: #293462;
+	background-color: transparent;
 	color: #fff1c1;
 	text-decoration: none;
 	display: flex;
@@ -86,6 +85,8 @@
 }
 .collapse .description {
 	font-size: 15px;
+	color: #fff1c1;
+	background-color: #293462;
 	letter-spacing: 1px;
 	padding: 5px 0px;
 	grid-column: 1/3;
@@ -100,21 +101,23 @@
 	margin-bottom: 5px;
 }
 .collapse .technologies {
-	width: 50%;
-	justify-self: center;
-	margin-bottom: 6px;
+	grid-column: 1/3;
+	background-color:transparent;
+	display: flex;
+	flex-wrap: wrap;
 }
-.collapse .sub-title {
-	margin-bottom: 4px;
+.collapse .technologies > p {
+	font-weight: 600;
+	color: #fff1c1;
+	width: 100%;
+	margin: 4px 0px 0px 4px;
 }
-.collapse ul {
-	list-style: none;
+.collapse .technologies > .tag {
+	padding: 4px;
+	margin: 5px;
+	background-color: transparent;
+	color: #fff1c1;
+	border: 1px solid #fff1c1;
 }
-.collapse li {
-	margin-bottom: 2px;
-	font-size: 15px;
-}
-.collapse li i{
-	margin-right: 4px;
-}
+
 /*	WORK - END	*/
