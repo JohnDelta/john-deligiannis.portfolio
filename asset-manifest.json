@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/johndelta.portfolio/static/css/main.c4ce4705.chunk.css",
+    "main.css": "/johndelta.portfolio/static/css/main.87132ff3.chunk.css",
     "main.js": "/johndelta.portfolio/static/js/main.c742720b.chunk.js",
     "main.js.map": "/johndelta.portfolio/static/js/main.c742720b.chunk.js.map",
     "runtime-main.js": "/johndelta.portfolio/static/js/runtime-main.8c6f65ad.js",
@@ -8,9 +8,9 @@
     "static/js/2.a92009f0.chunk.js": "/johndelta.portfolio/static/js/2.a92009f0.chunk.js",
     "static/js/2.a92009f0.chunk.js.map": "/johndelta.portfolio/static/js/2.a92009f0.chunk.js.map",
     "index.html": "/johndelta.portfolio/index.html",
-    "precache-manifest.5e1f9eaabe406ba0643165ab5b806141.js": "/johndelta.portfolio/precache-manifest.5e1f9eaabe406ba0643165ab5b806141.js",
+    "precache-manifest.382680a11f0078685984ee11ac3f0c92.js": "/johndelta.portfolio/precache-manifest.382680a11f0078685984ee11ac3f0c92.js",
     "service-worker.js": "/johndelta.portfolio/service-worker.js",
-    "static/css/main.c4ce4705.chunk.css.map": "/johndelta.portfolio/static/css/main.c4ce4705.chunk.css.map",
+    "static/css/main.87132ff3.chunk.css.map": "/johndelta.portfolio/static/css/main.87132ff3.chunk.css.map",
     "static/media/junior-workers.png": "/johndelta.portfolio/static/media/junior-workers.b1d8f77a.png",
     "static/media/logo.svg": "/johndelta.portfolio/static/media/logo.1d2f46a9.svg",
     "static/media/markdown-desktop.png": "/johndelta.portfolio/static/media/markdown-desktop.5563c7a7.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c6f65ad.js",
     "static/js/2.a92009f0.chunk.js",
-    "static/css/main.c4ce4705.chunk.css",
+    "static/css/main.87132ff3.chunk.css",
     "static/js/main.c742720b.chunk.js"
   ]
 }
