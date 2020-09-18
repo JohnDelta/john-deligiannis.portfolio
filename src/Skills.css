@@ -5,15 +5,21 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-ms-flex-line-pack: center;
-	    align-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.about {
+	width: 80%;
+	max-width: 800px;
+	background-color: #293462;
+	color: #fff1c1;
+	padding: 15px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+.about-title {
+	font-size: 22px;
+	font-weight: 600;
 }
 .categories {
 	width: 100%;

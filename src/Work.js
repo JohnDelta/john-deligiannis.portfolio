@@ -1,10 +1,31 @@
 import React from 'react';
 import './Work.css';
+import Showcase from './Showcase.js';
 
 class Work extends React.Component {
 	constructor() {
 		super();
+		this.state = {
+			showcaseFlag: false,
+			projectName: "",
+			projectNumberOfImages: 0
+		};
 		this.toggleCollapse = this.toggleCollapse.bind(this);
+		this.toggleShowcase = this.toggleShowcase.bind(this);
+	}
+
+	toggleShowcase(e) {
+		this.setState({
+			showcaseFlag: !this.state.showcaseFlag
+		});
+		if(this.state.showcaseFlag) {
+			let projectName = e.target.id.split("_")[1];
+			let projectNumberOfImages = e.target.id.split("_")[2];
+			this.setState({
+				projectName: projectName,
+				projectNumberOfImages: projectNumberOfImages
+			});
+		}
 	}
 
 	toggleCollapse(e) {
@@ -13,9 +34,6 @@ class Work extends React.Component {
 
 		if(element.name === "btn") {
 			button = element;
-			collapse = button.nextSibling;
-		} else if(element.name === "img") {
-			button = element.nextSibling;
 			collapse = button.nextSibling;
 		}
 
@@ -43,11 +61,14 @@ class Work extends React.Component {
 
 			projects.push(
 				<div className="project" key={"project"+index}>
-					<img 
-						name="img"
-						src={require(`${project.imagePath}`)}
-						onClick={this.toggleCollapse} alt="project" 
-					/>
+					<div className="img-wrapper" onClick={this.toggleShowcase} id={"wrapper_"+project.name+"_"+project.numberOfImages} >
+						<img 
+							name="img"
+							src={require(`${project.imagePath}`)}
+						/>
+
+						<i className="fa fa-search search" />
+					</div>
 					
 					<button name="btn" className="collapse-btn" onClick={this.toggleCollapse} >
 						<div className="arrow">
@@ -84,8 +105,18 @@ class Work extends React.Component {
 			);
 		});
 
+		let showcaseDiv = "";
+		if(this.state.showcaseFlag) {
+			showcaseDiv = <Showcase 
+				toggleShowcase={this.toggleShowcase} 
+				projectName={this.state.projectName} 
+				projectNumberOfImages={this.state.projectNumberOfImages}
+			/>;
+		}
+
 		return (
 			<div className="Work section-container" id="work">
+				{showcaseDiv}
 				<div className="section-title">
 					<hr /><p>Work</p>
 				</div>

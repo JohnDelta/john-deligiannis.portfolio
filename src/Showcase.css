@@ -1,0 +1,72 @@
+
+.Showcase {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Showcase .images {
+    display: grid;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #293462;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.Showcase .images img {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+}
+
+.Showcase .images button {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 50px;
+    height: 50px;
+    z-index: 120;
+    justify-self: end;
+    background-color: #fff1c1;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #293462;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.Showcase .buttons {
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #293462;
+    padding: 0px 15px 15px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.Showcase .buttons button {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background-color: #fff1c1;
+    cursor: pointer;
+    outline: none;
+    color: #293462;
+    font-size: 25px;
+    font-weight: 900;
+}

@@ -21,7 +21,7 @@
 	}
 } 
 .project {
-	width: 70%;
+	width: 80%;
 	max-width: 500px;
 	height: auto;
 	display: -webkit-box;
@@ -37,15 +37,46 @@
 	-o-transition: transform 0.4s;
 	transition: transform 0.4s;
 	transition: transform 0.4s, -webkit-transform 0.4s;
+	overflow: hidden;
 }
-.project img {
+.project .img-wrapper {
+	z-index: 30;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	justify-items: center;
+	align-items: center;
+}
+.project .search {
+	color: #f1f1f1;
+	font-size: 60px;
+	opacity: 0;
+	transition: 0.3s ease-out;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	z-index: 20;
+	pointer-events: none;
+}
+.project img {
+	z-index: 15;
+	grid-column: 1/2;
+	grid-row: 1/2;
 	cursor: pointer;
 	width: 100%;
 	height: auto;
+	transition: 0.2s ease-out;
+}
+.project .img-wrapper > img:hover {
+	transform: scale(1.1);
+	filter: brightness(50%);
+}
+.project .img-wrapper > img:hover ~ .search {
+	opacity: 100;
 }
 .project .collapse-btn {
+	z-index: 40;
 	background-color: transparent;
 	cursor: pointer;
 	border: none;
@@ -56,18 +87,19 @@
 	transition: 0.3s ease-out;
 	padding: 5px;
 	background-color: #293462;
+	display: flex;
+	align-items: center;
 }
 .project .collapse-btn .title {
 	background-color: transparent;
-	padding: 0px;
+	padding: 10px;
 	letter-spacing: 2px;
-	font-size: 19px;
+	font-size: 22px;
 	margin: auto;
 	text-align: center;
 	pointer-events: none;
 }
 .project .collapse-btn .arrow {
-	position: absolute;
 	pointer-events: none;
 }
 .collapse-btn-active .arrow {

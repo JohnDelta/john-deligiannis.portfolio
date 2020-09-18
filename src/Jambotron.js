@@ -11,7 +11,7 @@ class Jambotron extends React.Component {
 	}
 
 	componentDidMount() {
-		this.imageSlider();
+		//this.imageSlider();
 	}
 	
 	imageSlider() {
@@ -42,7 +42,7 @@ class Jambotron extends React.Component {
 	render() {
 		return (
 			<div className="Jambotron">
-				<img className="bg" src={require('./images/test3.png')} alt="background"/>
+				<div className="bg" />
 				<div className="showcase">
 					<div className="background-img">
 						<img src={require('./images/responsive-template-filled1.png')} alt="projects i created!" />

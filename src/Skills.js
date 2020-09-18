@@ -8,6 +8,10 @@ function Skills() {
 				<hr /><p>Skills</p>
 			</div>
 			<div className="skills">
+				<div className="about">
+					<div className="about-title">About me</div>
+					<p>I am studying... add summary here</p>
+				</div>
 				<div className="categories">
 					<div className="category">
 						<i className="fa fa-code" />
@@ -35,6 +39,7 @@ function Skills() {
 							<legend>Languages</legend>
 							<ul>
 								<li>Java</li>
+								<li>JSP</li>
 								<li>PHP</li>
 								<li>MySQL</li>
 							</ul>
@@ -42,8 +47,10 @@ function Skills() {
 						<fieldset>
 							<legend>Technologies</legend>
 							<ul>
-								<li>RESTful</li>
+								<li>REST API (Jax-rs)</li>
 								<li>Swing</li>
+								<li>Maven</li>
+								<li>JWT</li>
 							</ul>
 						</fieldset>
 					</div>
@@ -54,6 +61,7 @@ function Skills() {
 						<fieldset>
 							<legend>Versioning Systems</legend>
 							<ul>
+								<li>Github</li>
 								<li>Git</li>
 							</ul>
 						</fieldset>

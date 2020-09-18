@@ -3,6 +3,8 @@ export default function getProjectsToJson() {
         [
             {
                 "title" : "Pomodoro Clock",
+                "name": "pomodoro-clock",
+                "numberOfImages": 1,
                 "imagePath" : './images/pomodoro-clock.png',
                 "sourceLink" : "https://github.com/JohnDelta/pomodoro-clock",
                 "viewLink" : "https://johndelta.github.io/pomodoro-clock",
@@ -12,6 +14,8 @@ export default function getProjectsToJson() {
             },
             {
                 "title" : "Junior Workers",
+                "name": "pomodoro-clock",
+                "numberOfImages": 1,
                 "imagePath" : './images/junior-workers.png',
                 "sourceLink" : "https://github.com/JohnDelta/junior-workers",
                 "viewLink" : "",
