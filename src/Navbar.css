@@ -3,7 +3,7 @@
 /*	HEADER NAVBAR - START	*/
 .Navbar {
 	background-color: transparent;
-	z-index: 110;
+	z-index: 90;
 	position: fixed;
 	width: 100vw;
 	min-height: 14vh;

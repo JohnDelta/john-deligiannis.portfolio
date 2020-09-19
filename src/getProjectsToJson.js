@@ -8,8 +8,8 @@ export default function getProjectsToJson() {
                 "imagePath" : './images/examinationcenters_7.png',
                 "sourceLink" : "https://github.com/JohnDelta/ExaminationCenters",
                 "viewLink" : "",
-                "description" : ``,
-                "utilized" : ["React","Javascript","HTML5","CSS"],
+                "description" : "Concept project of an online examinations system.",
+                "utilized" : ["Java","RESTful","JSP","Servlet","Swing","MySQL","Maven","Javascript","HTML5","CSS3"],
             },
             {
                 "title" : "Pomodoro Clock",
@@ -22,17 +22,17 @@ export default function getProjectsToJson() {
                 react, which also includes a break length operation.`,
                 "utilized" : ["React","Javascript","HTML5","CSS"],
             },
-            {
-                "title" : "Junior Workers",
-                "name": "pomodoro-clock",
-                "numberOfImages": 1,
-                "imagePath" : './images/junior-workers.png',
-                "sourceLink" : "https://github.com/JohnDelta/junior-workers",
-                "viewLink" : "",
-                "description" : `Junior workers is a concept project of a networking web app
-                platform for professionals`,
-                "utilized" : ["PHP","MySQL","React","Javascript","HTML5","CSS"],
-            },
+            // {
+            //     "title" : "Junior Workers",
+            //     "name": "pomodoro-clock",
+            //     "numberOfImages": 1,
+            //     "imagePath" : './images/junior-workers.png',
+            //     "sourceLink" : "https://github.com/JohnDelta/junior-workers",
+            //     "viewLink" : "",
+            //     "description" : `Junior workers is a concept project of a networking web app
+            //     platform for professionals`,
+            //     "utilized" : ["PHP","MySQL","React","Javascript","HTML5","CSS"],
+            // },
 			// {
             //     "title" : "Drum Machine",
             //     "imagePath" : './images/markdown-desktop.png',

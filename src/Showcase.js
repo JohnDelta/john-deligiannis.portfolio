@@ -19,15 +19,15 @@ class Showcase extends React.Component {
         
         let op = e.target.id.split("_")[1];
         if(op === "prev") {
-            selectedIndexPath--;
-            if(selectedIndexPath < 0) {
-                selectedIndexPath = this.props.projectNumberOfImages-1;
-            } 
-        } else if (op === "next") {
             selectedIndexPath++;
             if(selectedIndexPath >= this.props.projectNumberOfImages) {
                 selectedIndexPath = 0;
             }
+        } else if (op === "next") {
+            selectedIndexPath--;
+            if(selectedIndexPath < 0) {
+                selectedIndexPath = this.props.projectNumberOfImages-1;
+            } 
         }
 
         this.setState({

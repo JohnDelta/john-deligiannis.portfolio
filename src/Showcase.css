@@ -16,21 +16,21 @@
 
 .Showcase .images {
     display: grid;
-    width: 80%;
-    max-width: 1000px;
-    min-width: 300px;
     padding: 15px;
     border-radius: 15px;
     background-color: #293462;
     grid-template-rows: auto;
     grid-template-columns: auto;
+    overflow: hidden;
 }
 
 .Showcase .images img {
     grid-row: 1/2;
     grid-column: 1/2;
     width: 100%;
-    display: none;
+    max-height: 90vh;
+    max-width: 90vw;
+    object-fit: contain;
 }
 
 .Showcase .images button {
