@@ -2,6 +2,16 @@ export default function getProjectsToJson() {
     return (
         [
             {
+                "title" : "Examination Centers",
+                "name": "examinationcenters",
+                "numberOfImages": 18,
+                "imagePath" : './images/examinationcenters_7.png',
+                "sourceLink" : "https://github.com/JohnDelta/ExaminationCenters",
+                "viewLink" : "",
+                "description" : ``,
+                "utilized" : ["React","Javascript","HTML5","CSS"],
+            },
+            {
                 "title" : "Pomodoro Clock",
                 "name": "pomodoro-clock",
                 "numberOfImages": 1,

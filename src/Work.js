@@ -18,14 +18,12 @@ class Work extends React.Component {
 		this.setState({
 			showcaseFlag: !this.state.showcaseFlag
 		});
-		if(this.state.showcaseFlag) {
-			let projectName = e.target.id.split("_")[1];
-			let projectNumberOfImages = e.target.id.split("_")[2];
-			this.setState({
-				projectName: projectName,
-				projectNumberOfImages: projectNumberOfImages
-			});
-		}
+		let projectName = e.target.id.split("_")[1];
+		let projectNumberOfImages = e.target.id.split("_")[2];
+		this.setState({
+			projectName: projectName,
+			projectNumberOfImages: projectNumberOfImages
+		});
 	}
 
 	toggleCollapse(e) {
@@ -51,7 +49,7 @@ class Work extends React.Component {
 			let utilized = [];
 			project.utilized.forEach((tech, index)=>{
 				utilized.push(
-					<div className="tag">{tech}</div>
+					<div className="tag" key={"keytag_"+index}>{tech}</div>
 				)
 			});
 
@@ -61,8 +59,10 @@ class Work extends React.Component {
 
 			projects.push(
 				<div className="project" key={"project"+index}>
-					<div className="img-wrapper" onClick={this.toggleShowcase} id={"wrapper_"+project.name+"_"+project.numberOfImages} >
+					<div className="img-wrapper">
 						<img 
+							onClick={this.toggleShowcase} 
+							id={"wrapper_"+project.name+"_"+project.numberOfImages}
 							name="img"
 							src={require(`${project.imagePath}`)}
 						/>
@@ -111,6 +111,7 @@ class Work extends React.Component {
 				toggleShowcase={this.toggleShowcase} 
 				projectName={this.state.projectName} 
 				projectNumberOfImages={this.state.projectNumberOfImages}
+				key={"showcase_"}
 			/>;
 		}
 

@@ -1,44 +1,51 @@
 import React from 'react';
 import './Showcase.css';
 
+const baseUrl = "./images/";
+
 class Showcase extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            imagePaths: []
+            selectedIndexPath: 0,
+            selectedImage: baseUrl+this.props.projectName+"_"+0+".png"
         };
+        this.nextImage = this.nextImage.bind(this);
     }
-// IMAGES WITH NAME NAME_INDEX like junior-workers_0
-    componentDidMount() {
-        if(this.props.projectName) {
-            let paths = [];
-            for(let i = 0; i < this.props.projectNumberOfImages; i++) {
-                paths.push(
-                    "./images/"+this.props.projectName+"_"+i
-                );
+
+    nextImage(e) {
+        let selectedIndexPath = this.state.selectedIndexPath;
+        
+        let op = e.target.id.split("_")[1];
+        if(op === "prev") {
+            selectedIndexPath--;
+            if(selectedIndexPath < 0) {
+                selectedIndexPath = this.props.projectNumberOfImages-1;
+            } 
+        } else if (op === "next") {
+            selectedIndexPath++;
+            if(selectedIndexPath >= this.props.projectNumberOfImages) {
+                selectedIndexPath = 0;
             }
         }
+
+        this.setState({
+            selectedIndexPath: selectedIndexPath,
+            selectedImage: baseUrl+this.props.projectName+"_"+selectedIndexPath+".png"
+        });
     }
 
     render() {
-
-        let images = [];
-        this.state.imagePaths.forEach((path, pIndex) => {
-            images.push(
-                <img src={require(path)} key={"img_showcase_"+pIndex} />
-            );
-        });
-
         return (
             <div className="Showcase">
                 <div className="images">
                     <button onClick={this.props.toggleShowcase} >x</button>
-                    {images}
+                    <img src={require(`${this.state.selectedImage}`)} alt="project's image" />
                 </div>
                 <div className="buttons">
-                    <button> {"<"} </button>
-                    <button> {">"} </button>
+                    <button id={"changeImage_next"} onClick={this.nextImage} > {"<"} </button>
+                    <button id={"changeImage_prev"} onClick={this.nextImage} > {">"} </button>
                 </div>
             </div>
         );
