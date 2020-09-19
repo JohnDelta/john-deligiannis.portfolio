@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/johndelta.portfolio/static/css/main.9386a6fa.chunk.css",
-    "main.js": "/johndelta.portfolio/static/js/main.c39804b5.chunk.js",
-    "main.js.map": "/johndelta.portfolio/static/js/main.c39804b5.chunk.js.map",
+    "main.css": "/johndelta.portfolio/static/css/main.3de0cbfb.chunk.css",
+    "main.js": "/johndelta.portfolio/static/js/main.f5d08454.chunk.js",
+    "main.js.map": "/johndelta.portfolio/static/js/main.f5d08454.chunk.js.map",
     "runtime-main.js": "/johndelta.portfolio/static/js/runtime-main.8c6f65ad.js",
     "runtime-main.js.map": "/johndelta.portfolio/static/js/runtime-main.8c6f65ad.js.map",
     "static/js/2.659b6ed5.chunk.js": "/johndelta.portfolio/static/js/2.659b6ed5.chunk.js",
     "static/js/2.659b6ed5.chunk.js.map": "/johndelta.portfolio/static/js/2.659b6ed5.chunk.js.map",
     "index.html": "/johndelta.portfolio/index.html",
-    "precache-manifest.2dad28fe6946ed8e66b64141fc80ae61.js": "/johndelta.portfolio/precache-manifest.2dad28fe6946ed8e66b64141fc80ae61.js",
+    "precache-manifest.0819be09b77df88a97d7e5cb2abe6958.js": "/johndelta.portfolio/precache-manifest.0819be09b77df88a97d7e5cb2abe6958.js",
     "service-worker.js": "/johndelta.portfolio/service-worker.js",
-    "static/css/main.9386a6fa.chunk.css.map": "/johndelta.portfolio/static/css/main.9386a6fa.chunk.css.map",
+    "static/css/main.3de0cbfb.chunk.css.map": "/johndelta.portfolio/static/css/main.3de0cbfb.chunk.css.map",
     "static/media/examinationcenters_1.png": "/johndelta.portfolio/static/media/examinationcenters_1.c7fdaecb.png",
     "static/media/examinationcenters_10.png": "/johndelta.portfolio/static/media/examinationcenters_10.89704806.png",
     "static/media/examinationcenters_11.png": "/johndelta.portfolio/static/media/examinationcenters_11.41ee3809.png",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c6f65ad.js",
     "static/js/2.659b6ed5.chunk.js",
-    "static/css/main.9386a6fa.chunk.css",
-    "static/js/main.c39804b5.chunk.js"
+    "static/css/main.3de0cbfb.chunk.css",
+    "static/js/main.f5d08454.chunk.js"
   ]
 }
