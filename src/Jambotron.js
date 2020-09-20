@@ -11,7 +11,7 @@ class Jambotron extends React.Component {
 	}
 
 	componentDidMount() {
-		//this.imageSlider();
+		this.imageSlider();
 	}
 	
 	imageSlider() {
@@ -47,6 +47,7 @@ class Jambotron extends React.Component {
 					<div className="background-img">
 						<img src={require('./images/responsive-template-filled1.png')} alt="projects i created!" />
 						<img src={require('./images/responsive-template-filled2.png')} alt="projects i created!" />
+						<img src={require('./images/responsive-template-filled3.png')} alt="projects i created!" />
 					</div>
 					<h1 className="title">Hi I'm John, a Software Engineer</h1>
 					<h2 className="subtitle">I'am currently studying informatics
