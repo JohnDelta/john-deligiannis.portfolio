@@ -34,8 +34,8 @@
 	        justify-content: center;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
-	        align-items: center;
-	margin-bottom: 8vh;
+			align-items: center;
+	margin-bottom: 15px;
 }
 .info a {
 	margin: 0px 40px;

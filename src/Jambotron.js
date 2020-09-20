@@ -50,8 +50,8 @@ class Jambotron extends React.Component {
 						<img src={require('./images/responsive-template-filled3.png')} alt="projects i created!" />
 					</div>
 					<h1 className="title">Hi I'm John, a Software Engineer</h1>
-					<h2 className="subtitle">I'am currently studying informatics
-					and computer engineering</h2>
+					<h2 className="subtitle">Recent graduate with an Integrated Master's Degree in Informatics and Computer
+						Engineering</h2>
 				</div>
 				<a className="show-work" href="#work">
 					<p>See my Work</p>

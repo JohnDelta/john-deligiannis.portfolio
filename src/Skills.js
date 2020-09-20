@@ -10,7 +10,19 @@ function Skills() {
 			<div className="skills">
 				<div className="about">
 					<div className="about-title">About me</div>
-					<p>I am studying... add summary here</p>
+					<p>
+						Recent graduate with an Integrated Master's Degree in Informatics and Computer
+						Engineering having a specialty in Software Engineering.
+					</p>
+					<p>
+						Highly motivated to work as a software engineer, eager to learn and follow
+						software design patterns and work with new technologies and solutions.
+					</p>
+					<p>
+						With background knowledge including analysis, design and delopment of 
+						information systems written in Java and web-based applications developed
+						using HTML, CSS, React, REST APIs and MySQL.
+					</p>
 				</div>
 				<div className="categories">
 					<div className="category">

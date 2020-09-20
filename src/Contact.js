@@ -24,14 +24,8 @@ function Contact() {
 						rel="noopener noreferrer" >
 							<i className="fa fa-linkedin-square"></i> 
 					</a>
-					<a 
-						href="https://github.com/JohnDelta" 
-						target="_blank" 
-						title="Send me an E-mail!"
-						rel="noopener noreferrer" >
-							<i className="fa fa-at"></i> 
-					</a>
 				</div>
+				<p style={{marginBottom: "80px"}} >Email: john.deligiannis1@gmail.com</p>
 			</div>
 		</div>
 	);
