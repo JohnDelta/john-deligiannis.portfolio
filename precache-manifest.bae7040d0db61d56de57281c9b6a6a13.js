@@ -1,23 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91d31e5d8ff327abe76ec499f6c6a8c5",
+    "revision": "a18299327215b882d429805c72726280",
     "url": "/johndelta.portfolio/index.html"
   },
   {
-    "revision": "c9f25912966d8734425e",
-    "url": "/johndelta.portfolio/static/css/main.3de0cbfb.chunk.css"
+    "revision": "e0aecae5c53358c0d678",
+    "url": "/johndelta.portfolio/static/css/main.96d4d44f.chunk.css"
   },
   {
-    "revision": "d8b96f50688807736149",
-    "url": "/johndelta.portfolio/static/js/2.659b6ed5.chunk.js"
+    "revision": "471e5a3857132a4aacc0",
+    "url": "/johndelta.portfolio/static/js/2.5ac11f79.chunk.js"
   },
   {
-    "revision": "c9f25912966d8734425e",
-    "url": "/johndelta.portfolio/static/js/main.f5d08454.chunk.js"
+    "revision": "e0aecae5c53358c0d678",
+    "url": "/johndelta.portfolio/static/js/main.57f5a76c.chunk.js"
   },
   {
     "revision": "cb7c1293682ed3d398cf",
     "url": "/johndelta.portfolio/static/js/runtime-main.8c6f65ad.js"
+  },
+  {
+    "revision": "16944be71175e3989ca124542b6c6416",
+    "url": "/johndelta.portfolio/static/media/biriba-notes_0.16944be7.png"
+  },
+  {
+    "revision": "aeac6cef8dec81ab5b1daaa44f3487df",
+    "url": "/johndelta.portfolio/static/media/biriba-notes_1.aeac6cef.png"
+  },
+  {
+    "revision": "5cf6efdbf76e9b43db651bd5dc0a27af",
+    "url": "/johndelta.portfolio/static/media/biriba-notes_2.5cf6efdb.png"
+  },
+  {
+    "revision": "4d374dd59bdc3264d0d1d80ab5dbe407",
+    "url": "/johndelta.portfolio/static/media/biriba-notes_3.4d374dd5.png"
   },
   {
     "revision": "c7fdaecbd66db9bc7485227a540a65c7",
@@ -88,35 +104,63 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/johndelta.portfolio/static/media/examinationcenters_9.2f352764.png"
   },
   {
-    "revision": "b1d8f77af56fa579fbd71380d2fea1e2",
-    "url": "/johndelta.portfolio/static/media/junior-workers.b1d8f77a.png"
+    "revision": "399f13395058e99ca1ca7eef319e2b67",
+    "url": "/johndelta.portfolio/static/media/junior-workers_0.399f1339.png"
+  },
+  {
+    "revision": "64d7fe724e3a5294b0df9a157885a145",
+    "url": "/johndelta.portfolio/static/media/junior-workers_1.64d7fe72.png"
+  },
+  {
+    "revision": "e8a65e1a51921556677a4a6227bbd097",
+    "url": "/johndelta.portfolio/static/media/junior-workers_2.e8a65e1a.png"
+  },
+  {
+    "revision": "7ee2eb1e06ed8f19b8af1541e939ddd0",
+    "url": "/johndelta.portfolio/static/media/junior-workers_3.7ee2eb1e.png"
+  },
+  {
+    "revision": "de68c5ae521fa6859f28b9482fbe48b5",
+    "url": "/johndelta.portfolio/static/media/junior-workers_4.de68c5ae.png"
+  },
+  {
+    "revision": "87a9f46f5cf475941e6daff0adf4253b",
+    "url": "/johndelta.portfolio/static/media/junior-workers_5.87a9f46f.png"
+  },
+  {
+    "revision": "abd1f8ecb130c5db0d1cb1f02b5ec2d1",
+    "url": "/johndelta.portfolio/static/media/junior-workers_6.abd1f8ec.png"
+  },
+  {
+    "revision": "ca93ec2ea51bdd81c036214a48f55b37",
+    "url": "/johndelta.portfolio/static/media/junior-workers_7.ca93ec2e.png"
+  },
+  {
+    "revision": "93e33f3fd5ac5dd7286d9d56a1c13ad8",
+    "url": "/johndelta.portfolio/static/media/junior-workers_8.93e33f3f.png"
   },
   {
     "revision": "1d2f46a942c97af1189159d42836225a",
     "url": "/johndelta.portfolio/static/media/logo.1d2f46a9.svg"
   },
   {
-    "revision": "5563c7a7e684b6e0757198e03b9da428",
-    "url": "/johndelta.portfolio/static/media/markdown-desktop.5563c7a7.png"
+    "revision": "f9080f2569421bd033127142742c4bae",
+    "url": "/johndelta.portfolio/static/media/pomodoro-clock_0.f9080f25.png"
   },
   {
-    "revision": "0226ba4bcdfba9b0db88790078a08a1e",
-    "url": "/johndelta.portfolio/static/media/markdown-mobile.0226ba4b.png"
+    "revision": "4a203ef50a90275368fe132678900e7e",
+    "url": "/johndelta.portfolio/static/media/pomodoro-clock_1.4a203ef5.png"
   },
   {
-    "revision": "05c3f5dba4b724a929ea46ce2b506811",
-    "url": "/johndelta.portfolio/static/media/pomodoro-clock.05c3f5db.png"
+    "revision": "b7f46db33da73f4158dbdc97807ca829",
+    "url": "/johndelta.portfolio/static/media/responsive-template-filled1.b7f46db3.png"
   },
   {
-    "revision": "bcf35febc5cc1cfc75f4729b15f06e0c",
-    "url": "/johndelta.portfolio/static/media/responsive-template-filled1.bcf35feb.png"
+    "revision": "d93ba47e583fbb03ab3285232497297f",
+    "url": "/johndelta.portfolio/static/media/responsive-template-filled2.d93ba47e.png"
   },
   {
     "revision": "1ef88a7d582e91be07f0bf1f7c17ed30",
-    "url": "/johndelta.portfolio/static/media/responsive-template-filled2.1ef88a7d.png"
-  },
-  {
-    "revision": "c5f609cd9d24ba5e4651f6396bd3cac0",
-    "url": "/johndelta.portfolio/static/media/test3.c5f609cd.png"
+    "url": "/johndelta.portfolio/static/media/responsive-template-filled3.1ef88a7d.png"
   }
 ]);
