@@ -25,7 +25,7 @@ function Contact() {
 							<i className="fa fa-linkedin-square"></i> 
 					</a>
 				</div>
-				<p style={{marginBottom: "80px"}} >Email: john.deligiannis1@gmail.com</p>
+				<p className="email" >Email: john.deligiannis1@gmail.com</p>
 			</div>
 		</div>
 	);

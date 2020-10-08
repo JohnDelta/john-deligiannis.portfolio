@@ -9,7 +9,7 @@ class Showcase extends React.Component {
         super(props);
         this.state = {
             selectedIndexPath: 0,
-            selectedImage: baseUrl+this.props.projectName+"_"+0+".png"
+            selectedImage: baseUrl+this.props.projectName+"_"+0+".jpg"
         };
         this.nextImage = this.nextImage.bind(this);
     }
@@ -32,7 +32,7 @@ class Showcase extends React.Component {
 
         this.setState({
             selectedIndexPath: selectedIndexPath,
-            selectedImage: baseUrl+this.props.projectName+"_"+selectedIndexPath+".png"
+            selectedImage: baseUrl+this.props.projectName+"_"+selectedIndexPath+".jpg"
         });
     }
 

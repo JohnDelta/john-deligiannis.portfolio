@@ -19,7 +19,7 @@ function Skills() {
 						software design patterns and work with new technologies and solutions.
 					</p>
 					<p>
-						With background knowledge including analysis, design and delopment of 
+						With background knowledge including analysis, design and development of 
 						information systems written in Java and web-based applications developed
 						using HTML, CSS, React, REST APIs and MySQL.
 					</p>
@@ -51,7 +51,6 @@ function Skills() {
 							<legend>Languages</legend>
 							<ul>
 								<li>Java</li>
-								<li>JSP</li>
 								<li>PHP</li>
 								<li>MySQL</li>
 							</ul>
@@ -59,10 +58,14 @@ function Skills() {
 						<fieldset>
 							<legend>Technologies</legend>
 							<ul>
-								<li>REST API (Jax-rs)</li>
-								<li>Swing</li>
+								<li>REST API</li>
+								<li>Spring</li>
+								<li>JPA</li>
+								<li>Hibernate</li>
 								<li>Maven</li>
 								<li>JWT</li>
+								<li>JSP</li>
+								<li>Servlet</li>
 							</ul>
 						</fieldset>
 					</div>
@@ -75,12 +78,6 @@ function Skills() {
 							<ul>
 								<li>Github</li>
 								<li>Git</li>
-							</ul>
-						</fieldset>
-						<fieldset>
-							<legend>Debug tools</legend>
-							<ul>
-								<li>Chrome Debug tools</li>
 							</ul>
 						</fieldset>
 					</div>
