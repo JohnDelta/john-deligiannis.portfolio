@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/johndelta.portfolio/static/css/main.d0b256d7.chunk.css",
-    "main.js": "/johndelta.portfolio/static/js/main.3e98cfdb.chunk.js",
-    "main.js.map": "/johndelta.portfolio/static/js/main.3e98cfdb.chunk.js.map",
+    "main.css": "/johndelta.portfolio/static/css/main.f269fa77.chunk.css",
+    "main.js": "/johndelta.portfolio/static/js/main.e4c3ade8.chunk.js",
+    "main.js.map": "/johndelta.portfolio/static/js/main.e4c3ade8.chunk.js.map",
     "runtime-main.js": "/johndelta.portfolio/static/js/runtime-main.8c6f65ad.js",
     "runtime-main.js.map": "/johndelta.portfolio/static/js/runtime-main.8c6f65ad.js.map",
     "static/js/2.e3ce4e5a.chunk.js": "/johndelta.portfolio/static/js/2.e3ce4e5a.chunk.js",
     "static/js/2.e3ce4e5a.chunk.js.map": "/johndelta.portfolio/static/js/2.e3ce4e5a.chunk.js.map",
     "index.html": "/johndelta.portfolio/index.html",
-    "precache-manifest.17ca4785fe4725bc6f65dd8a9b5196c4.js": "/johndelta.portfolio/precache-manifest.17ca4785fe4725bc6f65dd8a9b5196c4.js",
+    "precache-manifest.8e89597b3f7dd5e4ecee55eaf46c330f.js": "/johndelta.portfolio/precache-manifest.8e89597b3f7dd5e4ecee55eaf46c330f.js",
     "service-worker.js": "/johndelta.portfolio/service-worker.js",
-    "static/css/main.d0b256d7.chunk.css.map": "/johndelta.portfolio/static/css/main.d0b256d7.chunk.css.map",
+    "static/css/main.f269fa77.chunk.css.map": "/johndelta.portfolio/static/css/main.f269fa77.chunk.css.map",
     "static/media/9laugh_0.jpg": "/johndelta.portfolio/static/media/9laugh_0.98768b43.jpg",
     "static/media/9laugh_1.jpg": "/johndelta.portfolio/static/media/9laugh_1.30e1a52a.jpg",
     "static/media/9laugh_10.jpg": "/johndelta.portfolio/static/media/9laugh_10.a3cba854.jpg",
@@ -46,6 +46,18 @@
     "static/media/examinationcenters_7.jpg": "/johndelta.portfolio/static/media/examinationcenters_7.77c301ac.jpg",
     "static/media/examinationcenters_8.jpg": "/johndelta.portfolio/static/media/examinationcenters_8.837692fa.jpg",
     "static/media/examinationcenters_9.jpg": "/johndelta.portfolio/static/media/examinationcenters_9.8c6614c7.jpg",
+    "static/media/gymequipment_0.jpg": "/johndelta.portfolio/static/media/gymequipment_0.88347e23.jpg",
+    "static/media/gymequipment_1.jpg": "/johndelta.portfolio/static/media/gymequipment_1.bc86d0ea.jpg",
+    "static/media/gymequipment_10.jpg": "/johndelta.portfolio/static/media/gymequipment_10.babb580c.jpg",
+    "static/media/gymequipment_11.jpg": "/johndelta.portfolio/static/media/gymequipment_11.f80cb3f0.jpg",
+    "static/media/gymequipment_2.jpg": "/johndelta.portfolio/static/media/gymequipment_2.b4aaaa08.jpg",
+    "static/media/gymequipment_3.jpg": "/johndelta.portfolio/static/media/gymequipment_3.b547ed1b.jpg",
+    "static/media/gymequipment_4.jpg": "/johndelta.portfolio/static/media/gymequipment_4.9ac3ac9b.jpg",
+    "static/media/gymequipment_5.jpg": "/johndelta.portfolio/static/media/gymequipment_5.d852e37e.jpg",
+    "static/media/gymequipment_6.jpg": "/johndelta.portfolio/static/media/gymequipment_6.90d28c99.jpg",
+    "static/media/gymequipment_7.jpg": "/johndelta.portfolio/static/media/gymequipment_7.f9ca2d86.jpg",
+    "static/media/gymequipment_8.jpg": "/johndelta.portfolio/static/media/gymequipment_8.492b06a8.jpg",
+    "static/media/gymequipment_9.jpg": "/johndelta.portfolio/static/media/gymequipment_9.7e85207c.jpg",
     "static/media/junior-workers_0.jpg": "/johndelta.portfolio/static/media/junior-workers_0.2386e3c1.jpg",
     "static/media/junior-workers_1.jpg": "/johndelta.portfolio/static/media/junior-workers_1.f8092922.jpg",
     "static/media/junior-workers_2.jpg": "/johndelta.portfolio/static/media/junior-workers_2.de69777a.jpg",
@@ -59,14 +71,15 @@
     "static/media/pomodoro-clock_0.jpg": "/johndelta.portfolio/static/media/pomodoro-clock_0.a70ce737.jpg",
     "static/media/pomodoro-clock_1.jpg": "/johndelta.portfolio/static/media/pomodoro-clock_1.47bbd5bc.jpg",
     "static/media/responsive-template-filled1.png": "/johndelta.portfolio/static/media/responsive-template-filled1.274164d0.png",
-    "static/media/responsive-template-filled2.png": "/johndelta.portfolio/static/media/responsive-template-filled2.81a94e79.png",
-    "static/media/responsive-template-filled3.png": "/johndelta.portfolio/static/media/responsive-template-filled3.a0db25c0.png",
-    "static/media/responsive-template-filled4.png": "/johndelta.portfolio/static/media/responsive-template-filled4.d660b57b.png"
+    "static/media/responsive-template-filled2.png": "/johndelta.portfolio/static/media/responsive-template-filled2.adb8868b.png",
+    "static/media/responsive-template-filled3.png": "/johndelta.portfolio/static/media/responsive-template-filled3.81a94e79.png",
+    "static/media/responsive-template-filled4.png": "/johndelta.portfolio/static/media/responsive-template-filled4.a0db25c0.png",
+    "static/media/responsive-template-filled5.png": "/johndelta.portfolio/static/media/responsive-template-filled5.d660b57b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8c6f65ad.js",
     "static/js/2.e3ce4e5a.chunk.js",
-    "static/css/main.d0b256d7.chunk.css",
-    "static/js/main.3e98cfdb.chunk.js"
+    "static/css/main.f269fa77.chunk.css",
+    "static/js/main.e4c3ade8.chunk.js"
   ]
 }

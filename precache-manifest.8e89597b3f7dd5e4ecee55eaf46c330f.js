@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6b8a69080cd34ca68b58360ad2fb7a8",
+    "revision": "a4c9891c4419e859763c1b9fdc75066b",
     "url": "/johndelta.portfolio/index.html"
   },
   {
-    "revision": "8b9128db3b5b5c081843",
-    "url": "/johndelta.portfolio/static/css/main.d0b256d7.chunk.css"
+    "revision": "b3cff85619d4727c0fe9",
+    "url": "/johndelta.portfolio/static/css/main.f269fa77.chunk.css"
   },
   {
     "revision": "199870c298222bf6054a",
     "url": "/johndelta.portfolio/static/js/2.e3ce4e5a.chunk.js"
   },
   {
-    "revision": "8b9128db3b5b5c081843",
-    "url": "/johndelta.portfolio/static/js/main.3e98cfdb.chunk.js"
+    "revision": "b3cff85619d4727c0fe9",
+    "url": "/johndelta.portfolio/static/js/main.e4c3ade8.chunk.js"
   },
   {
     "revision": "cb7c1293682ed3d398cf",
@@ -160,6 +160,54 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/johndelta.portfolio/static/media/examinationcenters_9.8c6614c7.jpg"
   },
   {
+    "revision": "88347e23057ec6ec560d5832412ec249",
+    "url": "/johndelta.portfolio/static/media/gymequipment_0.88347e23.jpg"
+  },
+  {
+    "revision": "bc86d0eaa35e52132267c19989df4cb1",
+    "url": "/johndelta.portfolio/static/media/gymequipment_1.bc86d0ea.jpg"
+  },
+  {
+    "revision": "babb580cdce5ba6ff39b0471563dddf1",
+    "url": "/johndelta.portfolio/static/media/gymequipment_10.babb580c.jpg"
+  },
+  {
+    "revision": "f80cb3f0f146d00a0d6a668606e6414a",
+    "url": "/johndelta.portfolio/static/media/gymequipment_11.f80cb3f0.jpg"
+  },
+  {
+    "revision": "b4aaaa08ebb4a7db6ff8f86340fdaa70",
+    "url": "/johndelta.portfolio/static/media/gymequipment_2.b4aaaa08.jpg"
+  },
+  {
+    "revision": "b547ed1b832d725878f5e9f66a091db8",
+    "url": "/johndelta.portfolio/static/media/gymequipment_3.b547ed1b.jpg"
+  },
+  {
+    "revision": "9ac3ac9bed4a6476e225e7fbd61f6648",
+    "url": "/johndelta.portfolio/static/media/gymequipment_4.9ac3ac9b.jpg"
+  },
+  {
+    "revision": "d852e37e8f10bf95a69646686cfb5faf",
+    "url": "/johndelta.portfolio/static/media/gymequipment_5.d852e37e.jpg"
+  },
+  {
+    "revision": "90d28c99dec8b96f07a6e17fa263879a",
+    "url": "/johndelta.portfolio/static/media/gymequipment_6.90d28c99.jpg"
+  },
+  {
+    "revision": "f9ca2d86a99c756f6715dfdb8546799b",
+    "url": "/johndelta.portfolio/static/media/gymequipment_7.f9ca2d86.jpg"
+  },
+  {
+    "revision": "492b06a80fa6fd0fbbe2d13660e8f237",
+    "url": "/johndelta.portfolio/static/media/gymequipment_8.492b06a8.jpg"
+  },
+  {
+    "revision": "7e85207cb7002d8db806381c906ba1e4",
+    "url": "/johndelta.portfolio/static/media/gymequipment_9.7e85207c.jpg"
+  },
+  {
     "revision": "2386e3c16c30e3f9f3736e7a55fb36fe",
     "url": "/johndelta.portfolio/static/media/junior-workers_0.2386e3c1.jpg"
   },
@@ -212,15 +260,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/johndelta.portfolio/static/media/responsive-template-filled1.274164d0.png"
   },
   {
+    "revision": "adb8868b3ee43e57c73fc9ef280cdc43",
+    "url": "/johndelta.portfolio/static/media/responsive-template-filled2.adb8868b.png"
+  },
+  {
     "revision": "81a94e79f5ef350989c3f15f5a7e42a6",
-    "url": "/johndelta.portfolio/static/media/responsive-template-filled2.81a94e79.png"
+    "url": "/johndelta.portfolio/static/media/responsive-template-filled3.81a94e79.png"
   },
   {
     "revision": "a0db25c09ed4e64c17c415c7c982e4fe",
-    "url": "/johndelta.portfolio/static/media/responsive-template-filled3.a0db25c0.png"
+    "url": "/johndelta.portfolio/static/media/responsive-template-filled4.a0db25c0.png"
   },
   {
     "revision": "d660b57bd78b72ad7f294984e6cb6137",
-    "url": "/johndelta.portfolio/static/media/responsive-template-filled4.d660b57b.png"
+    "url": "/johndelta.portfolio/static/media/responsive-template-filled5.d660b57b.png"
   }
 ]);
