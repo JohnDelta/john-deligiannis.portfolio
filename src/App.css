@@ -1,38 +1,92 @@
+/*
+	# Font families
+		- font-family: 'Righteous', cursive; // strong - title - nav
+		- font-family: 'Montserrat', sans-serif; // light - text
+
+	# Color palette
+		- Dark blue #293462
+		- Mid blue #216583
+		- Light red #f76262
+		- Light beize #fff1c1
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+	overflow-x: hidden;
+	background-image: url("https://t4.ftcdn.net/jpg/01/03/27/57/360_F_103275771_JTT2XnSCvcUF6SbU6WhPTqFPMOGaS6cc.jpg");
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*	SCROLLBAR - START	*/
+::-webkit-scrollbar {
+	width: 1.5vw;
+	max-width: 20px;
+	min-width: 20px;
 }
+::-webkit-scrollbar-track {
+	background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #000000;
+}
+/*	SCROLLBAR - END	*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* SECTION - START	*/
+.section-container {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	filter: drop-shadow(10px 10px 0px #000000);
 }
-
-.App-link {
-  color: #61dafb;
+.section-container .section-title {
+	max-width: 1200px;
+	width: 85vw;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-bottom: 70px;
+	align-self: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-container .section-title hr {
+	width: 100%;
+	height: 10px;
+	background-color: #000000;
+	border: none;
 }
+.section-container .section-title p {
+	font-family: 'Righteous', cursive;
+	letter-spacing: 3px;
+	font-weight: 900;
+	font-size: 65px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0px 20px;
+	color: #000000;
+}
+@media screen and (max-width: 768px) {
+	.section-container .section-title {
+		width: 90vw;
+	}
+	.section-container .section-title p {
+		font-size: 3em;
+	}
+}
+/* SECTION - END	*/
