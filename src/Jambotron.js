@@ -16,7 +16,7 @@ const Jambotron = () => {
 		setSliderInterval(
 			setInterval(() => {
 				images.forEach((image) => {
-					image.style.transitionDuration = "4s";
+					image.style.transitionDuration = "6s";
 					image.style.zIndex = "0";
 					image.style.opacity = "0";
 				});
@@ -31,7 +31,7 @@ const Jambotron = () => {
 
 	return (
 		<div className="Jambotron">
-			<div className="bg" />
+			<div className="bg-black"/>
 			<div className="showcase">
 				<div className="background-img">
 					<img src={require('./images/responsive-template-filled1.png')} alt="Projects I created!" />

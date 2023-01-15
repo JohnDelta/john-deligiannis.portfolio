@@ -96,21 +96,23 @@
 }
 .nav-link:hover {
 	background:
-		linear-gradient(to right, #ffffff 4px, transparent 4px) 0 100%,
-		linear-gradient(to left, #ffffff 4px, transparent 4px) 100% 0,
-		linear-gradient(to bottom, #ffffff 4px, transparent 4px) 100% 0,
-		linear-gradient(to top, #ffffff 4px, transparent 4px) 0 100%;
+		linear-gradient(to right, #fd0098 4px, transparent 4px) 0 100%,
+		linear-gradient(to left, #fd0098 4px, transparent 4px) 100% 0,
+		linear-gradient(to bottom, #fd0098 4px, transparent 4px) 100% 0,
+		linear-gradient(to top, #fd0098 4px, transparent 4px) 0 100%;
     background-repeat: no-repeat;
     background-size: 20px 20px;
+	color: #fd0098;
 }
 .nav-link-active {
 	background:
-		linear-gradient(to right, #ffffff 4px, transparent 4px) 0 100%,
-		linear-gradient(to left, #ffffff 4px, transparent 4px) 100% 0,
-		linear-gradient(to bottom, #ffffff 4px, transparent 4px) 100% 0,
-		linear-gradient(to top, #ffffff 4px, transparent 4px) 0 100%;
+		linear-gradient(to right, #fd0098 4px, transparent 4px) 0 100%,
+		linear-gradient(to left, #fd0098 4px, transparent 4px) 100% 0,
+		linear-gradient(to bottom, #fd0098 4px, transparent 4px) 100% 0,
+		linear-gradient(to top, #fd0098 4px, transparent 4px) 0 100%;
     background-repeat: no-repeat;
     background-size: 20px 20px;
+	color: #fd0098;
 }
 
 @media screen and (max-width: 768px) {
