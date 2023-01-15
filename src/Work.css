@@ -2,7 +2,7 @@
 .projects {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	row-gap: 20px;
+	row-gap: 30px;
 	align-items: start;
 	align-content: start;
 	justify-items: center;
