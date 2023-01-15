@@ -39,9 +39,8 @@ const Jambotron = () => {
 					<img src={require('./images/responsive-template-filled3.png')} alt="Projects I created!" />
 					<img src={require('./images/responsive-template-filled4.png')} alt="Projects I created!" />
 				</div>
-				<h1 className="title">Hi I'm John, a Software Engineer</h1>
-				<h2 className="subtitle">Recent graduate with an Integrated Master's Degree in Informatics and Computer
-					Engineering</h2>
+				<h1 className="title">Hi, I'm John! I'm Software Engineer</h1>
+				<h2 className="subtitle">I work as a full-stack developer and my goal is to produce quality code that follows the best design principles and patterns.</h2>
 			</div>
 			<a className="show-work" href="#work">
 				<p>See my Work</p>

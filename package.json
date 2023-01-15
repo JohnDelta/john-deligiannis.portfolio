@@ -1,7 +1,7 @@
 {
   "name": "john-deligiannis.portfolio",
   "version": "0.1.0",
-  "homepage": "https://johndelta.github.io/john-deligiannis.portfolio",
+  "homepage": "https://johndelta.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
