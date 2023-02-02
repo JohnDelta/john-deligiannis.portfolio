@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/john-deligiannis.portfolio/static/css/main.1b608363.css",
-    "main.js": "/john-deligiannis.portfolio/static/js/main.dd2c0bbe.js",
+    "main.js": "/john-deligiannis.portfolio/static/js/main.1d3ff1e6.js",
     "static/media/responsive-template-filled1.png": "/john-deligiannis.portfolio/static/media/responsive-template-filled1.a2efbf75514f04a34635.png",
     "static/media/responsive-template-filled2.png": "/john-deligiannis.portfolio/static/media/responsive-template-filled2.fbfaecea71d949ebc64c.png",
     "static/media/responsive-template-filled3.png": "/john-deligiannis.portfolio/static/media/responsive-template-filled3.168320237e7c08f991ff.png",
@@ -79,10 +79,10 @@
     "static/media/logo.svg": "/john-deligiannis.portfolio/static/media/logo.75caef7e4f8caf25b258.svg",
     "index.html": "/john-deligiannis.portfolio/index.html",
     "main.1b608363.css.map": "/john-deligiannis.portfolio/static/css/main.1b608363.css.map",
-    "main.dd2c0bbe.js.map": "/john-deligiannis.portfolio/static/js/main.dd2c0bbe.js.map"
+    "main.1d3ff1e6.js.map": "/john-deligiannis.portfolio/static/js/main.1d3ff1e6.js.map"
   },
   "entrypoints": [
     "static/css/main.1b608363.css",
-    "static/js/main.dd2c0bbe.js"
+    "static/js/main.1d3ff1e6.js"
   ]
 }
