@@ -1,1 +1,0 @@
-## John Deligiannis Personal Portfolio
